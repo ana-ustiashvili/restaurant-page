@@ -1,0 +1,65 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  /* padding: 21px 90px; */
+}
+
+.upper-section {
+  background-image: url("../images/coffee_image.png");
+  background-repeat: no-repeat;
+  height: 768px;
+  background-size: cover;
+  background-position: center;
+  padding: 21px 90px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul {
+  gap: 60px;
+  display: flex;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.nav-a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in-btn {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  height: 33px;
+  width: 78px;
+  background-color: #ffffff;
+}
+
+.sign-up-btn {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  height: 33px;
+  width: 78px;
+  background-color: #f9c06a;
+}
