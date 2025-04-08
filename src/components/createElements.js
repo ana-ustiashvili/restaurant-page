@@ -8,6 +8,5 @@ const createElement = (el, elClass) => {
 
 export {createElement}
 
-//choose element, create child element.append to chosen element.
-//create parent element, create child element. append to parent element
+
 
