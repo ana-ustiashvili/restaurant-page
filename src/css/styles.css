@@ -63,3 +63,81 @@ header {
   width: 78px;
   background-color: #f9c06a;
 }
+
+.inner-section {
+  width: calc(627 / 1440 * 100%);
+  font-size: clamp(60px, 6.25vw, 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 91%;
+}
+
+.intro-p {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.big-p {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 1em;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.order-btn {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  width: 150px;
+  background-color: #f9c06a;
+  margin-top: 15px;
+}
+
+.joinUsSection {
+  background-color: #f9c06a6b;
+  padding-top: 20px;
+}
+
+.sectionH2 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: rgb(80, 17, 17);
+  font-weight: bold;
+  text-align: center;
+}
+
+.info-p {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: rgb(80, 17, 17);
+  margin-top: 15px;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoCard {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #f3c884;
+  height: 200px;
+}
+
+.sectionH3 {
+  font-family: "Inter", sans-serif;
+
+  font-size: 25px;
+}
